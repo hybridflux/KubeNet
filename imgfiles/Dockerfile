@@ -2,5 +2,5 @@ FROM microsoft/aspnetcore:2.0
 ARG source
 WORKDIR /app
 EXPOSE 80
-COPY ./imgfiles/ .
+COPY ${source:-obj/Docker/publish} .
 ENTRYPOINT ["dotnet", "KubeNet.dll"]
