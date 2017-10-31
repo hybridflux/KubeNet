@@ -10,7 +10,7 @@ but I cannot imagine giving-up Visual Studio, so having the Linux Subsystem on W
 
 ## Pre-requisites
 
-Enable WSL on [Windows 10] (https://msdn.microsoft.com/en-us/commandline/wsl/install-win10). Install the most recent version of [Azure CLI] (https://docs.microsoft.com/en-us/cli/azure/install-azure-cli?view=azure-cli-latest).
+Enable WSL on [Windows 10](https://msdn.microsoft.com/en-us/commandline/wsl/install-win10). Install the most recent version of [Azure CLI](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli?view=azure-cli-latest).
 
 ## Create a Kubernetes cluster on Azure
 
@@ -46,7 +46,7 @@ $ kubectl cluster-info
 ## Deploy pods
 
 Deploy docker images in pods and create a service, i.e. with sample yaml-file 
-Create a yaml-<file>, as in [this sample] (https://docs.microsoft.com/en-us/azure/container-service/kubernetes/container-service-kubernetes-walkthrough#run-the-application), in your directory and deploy
+Create a yaml-<file>, as in [this sample](https://docs.microsoft.com/en-us/azure/container-service/kubernetes/container-service-kubernetes-walkthrough#run-the-application), in your directory and deploy
 
 ```
 $ kubectl create -f youryamlfile.yaml
